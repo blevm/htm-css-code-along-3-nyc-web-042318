@@ -36,9 +36,19 @@ figcaption {
   text-shadow: 0px 2px 3px #000;
 }
 
-/* ID selector (applied to one unique element per page */
+/* ID selector (applied to one unique element per page) */
 
 #logo {/* select elements with the id logo */
   background: aqua;
 
+}
+
+/* Descendant selector */
+
+#logo h1 { /* selects <h1> if inside the logo element */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
 }
