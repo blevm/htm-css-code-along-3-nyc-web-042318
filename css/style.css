@@ -28,4 +28,11 @@ figcaption {
   text-align: right;
 }
 
-/* Class selector (applied to as many elements as you would like)*/
+/* Class selector (applied to as many elements as you would like) */
+
+.milk-text { /* select elements with the class milk-text */
+  font: bold 2.6m 'Elsie Swash Caps', cursive;
+  color: #FFF;
+  text-shadow: 0px 2px 3px #000;
+
+}
